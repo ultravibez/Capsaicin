@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChargeOperationCell" rowHeight="80" id="wI9-KA-Dye" customClass="ChargeOperationCell" customModule="Capsaicin" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wI9-KA-Dye" id="oWh-BF-x9Y">
+                <rect key="frame" x="0.0" y="0.0" width="390" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8rD-XX-zpC">
+                        <rect key="frame" x="20" y="30" width="22.333333333333329" height="20.333333333333329"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2tH-sQ-HzP">
+                        <rect key="frame" x="342" y="0.0" width="48" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="0GL-Q7-eAk"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" image="info-icon" imagePadding="0.0"/>
+                        <connections>
+                            <action selector="infoTapped:" destination="wI9-KA-Dye" eventType="touchUpInside" id="3MW-Pl-6Ub"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shopping" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ATU-jr-wa2">
+                        <rect key="frame" x="261" y="29.666666666666671" width="73" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="2tH-sQ-HzP" secondAttribute="trailing" id="8bU-T1-RA9"/>
+                    <constraint firstItem="2tH-sQ-HzP" firstAttribute="centerY" secondItem="oWh-BF-x9Y" secondAttribute="centerY" id="C4l-FN-34y"/>
+                    <constraint firstItem="2tH-sQ-HzP" firstAttribute="leading" secondItem="ATU-jr-wa2" secondAttribute="trailing" constant="8" id="JpB-1a-LxT"/>
+                    <constraint firstItem="8rD-XX-zpC" firstAttribute="leading" secondItem="oWh-BF-x9Y" secondAttribute="leading" constant="20" id="NBw-AH-MSf"/>
+                    <constraint firstItem="ATU-jr-wa2" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8rD-XX-zpC" secondAttribute="trailing" constant="8" id="TJ4-vj-QvZ"/>
+                    <constraint firstItem="2tH-sQ-HzP" firstAttribute="top" secondItem="oWh-BF-x9Y" secondAttribute="top" id="ebu-Tq-ia1"/>
+                    <constraint firstItem="ATU-jr-wa2" firstAttribute="centerY" secondItem="oWh-BF-x9Y" secondAttribute="centerY" id="em1-GB-6zw"/>
+                    <constraint firstAttribute="bottom" secondItem="2tH-sQ-HzP" secondAttribute="bottom" id="ktJ-xI-u8P"/>
+                    <constraint firstItem="8rD-XX-zpC" firstAttribute="centerY" secondItem="oWh-BF-x9Y" secondAttribute="centerY" id="piE-rN-mmc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="amountLabel" destination="8rD-XX-zpC" id="7wY-9t-6hn"/>
+                <outlet property="operationDescription" destination="ATU-jr-wa2" id="fy6-XJ-hvk"/>
+            </connections>
+            <point key="canvasLocation" x="149" y="-215"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="info-icon" width="24" height="24"/>
+    </resources>
+</document>

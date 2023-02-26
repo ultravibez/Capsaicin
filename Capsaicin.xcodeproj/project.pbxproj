@@ -9,24 +9,28 @@
 /* Begin PBXBuildFile section */
 		0FF89ED229A51A0A00B4AAAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF89ED129A51A0A00B4AAAA /* AppDelegate.swift */; };
 		0FF89ED429A51A0A00B4AAAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF89ED329A51A0A00B4AAAA /* SceneDelegate.swift */; };
-		0FF89ED629A51A0A00B4AAAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF89ED529A51A0A00B4AAAA /* ViewController.swift */; };
-		0FF89ED929A51A0A00B4AAAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FF89ED729A51A0A00B4AAAA /* Main.storyboard */; };
+		0FF89ED629A51A0A00B4AAAA /* OperationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF89ED529A51A0A00B4AAAA /* OperationsViewController.swift */; };
 		0FF89EDB29A51A0B00B4AAAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FF89EDA29A51A0B00B4AAAA /* Assets.xcassets */; };
 		0FF89EDE29A51A0B00B4AAAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FF89EDC29A51A0B00B4AAAA /* LaunchScreen.storyboard */; };
 		0FF89EE929A51A0B00B4AAAA /* CapsaicinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF89EE829A51A0B00B4AAAA /* CapsaicinTests.swift */; };
-		0FF89EF329A51A0B00B4AAAA /* CapsaicinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF89EF229A51A0B00B4AAAA /* CapsaicinUITests.swift */; };
-		0FF89EF529A51A0B00B4AAAA /* CapsaicinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF89EF429A51A0B00B4AAAA /* CapsaicinUITestsLaunchTests.swift */; };
+		0FF89F0429A51AFD00B4AAAA /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF89F0329A51AFD00B4AAAA /* Operation.swift */; };
+		0FF89F0629A51C5C00B4AAAA /* operations.json in Resources */ = {isa = PBXBuildFile; fileRef = 0FF89F0529A51C5C00B4AAAA /* operations.json */; };
+		0FF89F0829A51E2D00B4AAAA /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF89F0729A51E2D00B4AAAA /* Results.swift */; };
+		0FF89F0B29A51E6600B4AAAA /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF89F0A29A51E6600B4AAAA /* Model.swift */; };
+		0FF89F0E29A520A400B4AAAA /* OperationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF89F0D29A520A400B4AAAA /* OperationsViewModel.swift */; };
+		0FF89F1129A5268600B4AAAA /* ChargeOperationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FF89F1029A5268600B4AAAA /* ChargeOperationCell.xib */; };
+		0FF89F1329A5269B00B4AAAA /* ChargeOperationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF89F1229A5269B00B4AAAA /* ChargeOperationCell.swift */; };
+		0FF89F1729A6E1A300B4AAAA /* CellBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF89F1629A6E1A300B4AAAA /* CellBuilder.swift */; };
+		0FF89F1B29A6E43A00B4AAAA /* WithdrawalOperationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF89F1A29A6E43A00B4AAAA /* WithdrawalOperationCell.swift */; };
+		0FF89F1D29A6E44800B4AAAA /* WithdrawalOperationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FF89F1C29A6E44800B4AAAA /* WithdrawalOperationCell.xib */; };
+		0FF89F1F29A6E8BB00B4AAAA /* DepositOperationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FF89F1E29A6E8BB00B4AAAA /* DepositOperationCell.xib */; };
+		0FF89F2129A6E8C200B4AAAA /* DepositOperationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF89F2029A6E8C200B4AAAA /* DepositOperationCell.swift */; };
+		0FF89F2429A6EDBD00B4AAAA /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF89F2329A6EDBD00B4AAAA /* DetailsViewController.swift */; };
+		0FF89F2629A6FA2B00B4AAAA /* BaseOperationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF89F2529A6FA2B00B4AAAA /* BaseOperationCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		0FF89EE529A51A0B00B4AAAA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0FF89EC629A51A0A00B4AAAA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0FF89ECD29A51A0A00B4AAAA;
-			remoteInfo = Capsaicin;
-		};
-		0FF89EEF29A51A0B00B4AAAA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0FF89EC629A51A0A00B4AAAA /* Project object */;
 			proxyType = 1;
@@ -39,16 +43,26 @@
 		0FF89ECE29A51A0A00B4AAAA /* Capsaicin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Capsaicin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FF89ED129A51A0A00B4AAAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FF89ED329A51A0A00B4AAAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0FF89ED529A51A0A00B4AAAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0FF89ED829A51A0A00B4AAAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0FF89ED529A51A0A00B4AAAA /* OperationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsViewController.swift; sourceTree = "<group>"; };
 		0FF89EDA29A51A0B00B4AAAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FF89EDD29A51A0B00B4AAAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FF89EDF29A51A0B00B4AAAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FF89EE429A51A0B00B4AAAA /* CapsaicinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapsaicinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FF89EE829A51A0B00B4AAAA /* CapsaicinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsaicinTests.swift; sourceTree = "<group>"; };
-		0FF89EEE29A51A0B00B4AAAA /* CapsaicinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapsaicinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FF89EF229A51A0B00B4AAAA /* CapsaicinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsaicinUITests.swift; sourceTree = "<group>"; };
-		0FF89EF429A51A0B00B4AAAA /* CapsaicinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsaicinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0FF89F0329A51AFD00B4AAAA /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		0FF89F0529A51C5C00B4AAAA /* operations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = operations.json; sourceTree = "<group>"; };
+		0FF89F0729A51E2D00B4AAAA /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		0FF89F0A29A51E6600B4AAAA /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		0FF89F0D29A520A400B4AAAA /* OperationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsViewModel.swift; sourceTree = "<group>"; };
+		0FF89F1029A5268600B4AAAA /* ChargeOperationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChargeOperationCell.xib; sourceTree = "<group>"; };
+		0FF89F1229A5269B00B4AAAA /* ChargeOperationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargeOperationCell.swift; sourceTree = "<group>"; };
+		0FF89F1629A6E1A300B4AAAA /* CellBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellBuilder.swift; sourceTree = "<group>"; };
+		0FF89F1A29A6E43A00B4AAAA /* WithdrawalOperationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawalOperationCell.swift; sourceTree = "<group>"; };
+		0FF89F1C29A6E44800B4AAAA /* WithdrawalOperationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WithdrawalOperationCell.xib; sourceTree = "<group>"; };
+		0FF89F1E29A6E8BB00B4AAAA /* DepositOperationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DepositOperationCell.xib; sourceTree = "<group>"; };
+		0FF89F2029A6E8C200B4AAAA /* DepositOperationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositOperationCell.swift; sourceTree = "<group>"; };
+		0FF89F2329A6EDBD00B4AAAA /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		0FF89F2529A6FA2B00B4AAAA /* BaseOperationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseOperationCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +80,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0FF89EEB29A51A0B00B4AAAA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,7 +88,6 @@
 			children = (
 				0FF89ED029A51A0A00B4AAAA /* Capsaicin */,
 				0FF89EE729A51A0B00B4AAAA /* CapsaicinTests */,
-				0FF89EF129A51A0B00B4AAAA /* CapsaicinUITests */,
 				0FF89ECF29A51A0A00B4AAAA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +97,6 @@
 			children = (
 				0FF89ECE29A51A0A00B4AAAA /* Capsaicin.app */,
 				0FF89EE429A51A0B00B4AAAA /* CapsaicinTests.xctest */,
-				0FF89EEE29A51A0B00B4AAAA /* CapsaicinUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,13 +104,17 @@
 		0FF89ED029A51A0A00B4AAAA /* Capsaicin */ = {
 			isa = PBXGroup;
 			children = (
+				0FF89F0F29A525FE00B4AAAA /* Views */,
+				0FF89F0C29A5209100B4AAAA /* ViewModels */,
+				0FF89F0929A51E3A00B4AAAA /* Utils */,
+				0FF89F0229A51AEB00B4AAAA /* Models */,
+				0FF89F0129A51AA300B4AAAA /* Controllers */,
 				0FF89ED129A51A0A00B4AAAA /* AppDelegate.swift */,
 				0FF89ED329A51A0A00B4AAAA /* SceneDelegate.swift */,
-				0FF89ED529A51A0A00B4AAAA /* ViewController.swift */,
-				0FF89ED729A51A0A00B4AAAA /* Main.storyboard */,
 				0FF89EDA29A51A0B00B4AAAA /* Assets.xcassets */,
 				0FF89EDC29A51A0B00B4AAAA /* LaunchScreen.storyboard */,
 				0FF89EDF29A51A0B00B4AAAA /* Info.plist */,
+				0FF89F0529A51C5C00B4AAAA /* operations.json */,
 			);
 			path = Capsaicin;
 			sourceTree = "<group>";
@@ -118,13 +127,61 @@
 			path = CapsaicinTests;
 			sourceTree = "<group>";
 		};
-		0FF89EF129A51A0B00B4AAAA /* CapsaicinUITests */ = {
+		0FF89F0129A51AA300B4AAAA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				0FF89EF229A51A0B00B4AAAA /* CapsaicinUITests.swift */,
-				0FF89EF429A51A0B00B4AAAA /* CapsaicinUITestsLaunchTests.swift */,
+				0FF89ED529A51A0A00B4AAAA /* OperationsViewController.swift */,
+				0FF89F2329A6EDBD00B4AAAA /* DetailsViewController.swift */,
 			);
-			path = CapsaicinUITests;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0FF89F0229A51AEB00B4AAAA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0FF89F0329A51AFD00B4AAAA /* Operation.swift */,
+				0FF89F0729A51E2D00B4AAAA /* Results.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0FF89F0929A51E3A00B4AAAA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0FF89F0A29A51E6600B4AAAA /* Model.swift */,
+				0FF89F1629A6E1A300B4AAAA /* CellBuilder.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0FF89F0C29A5209100B4AAAA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0FF89F0D29A520A400B4AAAA /* OperationsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0FF89F0F29A525FE00B4AAAA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0FF89F2229A6ED9300B4AAAA /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0FF89F2229A6ED9300B4AAAA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0FF89F1029A5268600B4AAAA /* ChargeOperationCell.xib */,
+				0FF89F1229A5269B00B4AAAA /* ChargeOperationCell.swift */,
+				0FF89F1C29A6E44800B4AAAA /* WithdrawalOperationCell.xib */,
+				0FF89F1A29A6E43A00B4AAAA /* WithdrawalOperationCell.swift */,
+				0FF89F1E29A6E8BB00B4AAAA /* DepositOperationCell.xib */,
+				0FF89F2029A6E8C200B4AAAA /* DepositOperationCell.swift */,
+				0FF89F2529A6FA2B00B4AAAA /* BaseOperationCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +222,6 @@
 			productReference = 0FF89EE429A51A0B00B4AAAA /* CapsaicinTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0FF89EED29A51A0B00B4AAAA /* CapsaicinUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0FF89EFE29A51A0B00B4AAAA /* Build configuration list for PBXNativeTarget "CapsaicinUITests" */;
-			buildPhases = (
-				0FF89EEA29A51A0B00B4AAAA /* Sources */,
-				0FF89EEB29A51A0B00B4AAAA /* Frameworks */,
-				0FF89EEC29A51A0B00B4AAAA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0FF89EF029A51A0B00B4AAAA /* PBXTargetDependency */,
-			);
-			name = CapsaicinUITests;
-			productName = CapsaicinUITests;
-			productReference = 0FF89EEE29A51A0B00B4AAAA /* CapsaicinUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +236,6 @@
 						CreatedOnToolsVersion = 14.0.1;
 					};
 					0FF89EE329A51A0B00B4AAAA = {
-						CreatedOnToolsVersion = 14.0.1;
-						TestTargetID = 0FF89ECD29A51A0A00B4AAAA;
-					};
-					0FF89EED29A51A0B00B4AAAA = {
 						CreatedOnToolsVersion = 14.0.1;
 						TestTargetID = 0FF89ECD29A51A0A00B4AAAA;
 					};
@@ -221,7 +256,6 @@
 			targets = (
 				0FF89ECD29A51A0A00B4AAAA /* Capsaicin */,
 				0FF89EE329A51A0B00B4AAAA /* CapsaicinTests */,
-				0FF89EED29A51A0B00B4AAAA /* CapsaicinUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,20 +265,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FF89F1F29A6E8BB00B4AAAA /* DepositOperationCell.xib in Resources */,
 				0FF89EDE29A51A0B00B4AAAA /* LaunchScreen.storyboard in Resources */,
+				0FF89F1D29A6E44800B4AAAA /* WithdrawalOperationCell.xib in Resources */,
+				0FF89F1129A5268600B4AAAA /* ChargeOperationCell.xib in Resources */,
 				0FF89EDB29A51A0B00B4AAAA /* Assets.xcassets in Resources */,
-				0FF89ED929A51A0A00B4AAAA /* Main.storyboard in Resources */,
+				0FF89F0629A51C5C00B4AAAA /* operations.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0FF89EE229A51A0B00B4AAAA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0FF89EEC29A51A0B00B4AAAA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,9 +288,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FF89ED629A51A0A00B4AAAA /* ViewController.swift in Sources */,
+				0FF89ED629A51A0A00B4AAAA /* OperationsViewController.swift in Sources */,
+				0FF89F2129A6E8C200B4AAAA /* DepositOperationCell.swift in Sources */,
 				0FF89ED229A51A0A00B4AAAA /* AppDelegate.swift in Sources */,
+				0FF89F0E29A520A400B4AAAA /* OperationsViewModel.swift in Sources */,
+				0FF89F1729A6E1A300B4AAAA /* CellBuilder.swift in Sources */,
+				0FF89F1B29A6E43A00B4AAAA /* WithdrawalOperationCell.swift in Sources */,
 				0FF89ED429A51A0A00B4AAAA /* SceneDelegate.swift in Sources */,
+				0FF89F0B29A51E6600B4AAAA /* Model.swift in Sources */,
+				0FF89F2629A6FA2B00B4AAAA /* BaseOperationCell.swift in Sources */,
+				0FF89F0429A51AFD00B4AAAA /* Operation.swift in Sources */,
+				0FF89F1329A5269B00B4AAAA /* ChargeOperationCell.swift in Sources */,
+				0FF89F0829A51E2D00B4AAAA /* Results.swift in Sources */,
+				0FF89F2429A6EDBD00B4AAAA /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,15 +312,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0FF89EEA29A51A0B00B4AAAA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0FF89EF529A51A0B00B4AAAA /* CapsaicinUITestsLaunchTests.swift in Sources */,
-				0FF89EF329A51A0B00B4AAAA /* CapsaicinUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -289,22 +320,9 @@
 			target = 0FF89ECD29A51A0A00B4AAAA /* Capsaicin */;
 			targetProxy = 0FF89EE529A51A0B00B4AAAA /* PBXContainerItemProxy */;
 		};
-		0FF89EF029A51A0B00B4AAAA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0FF89ECD29A51A0A00B4AAAA /* Capsaicin */;
-			targetProxy = 0FF89EEF29A51A0B00B4AAAA /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0FF89ED729A51A0A00B4AAAA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0FF89ED829A51A0A00B4AAAA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0FF89EDC29A51A0B00B4AAAA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +460,6 @@
 				INFOPLIST_FILE = Capsaicin/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +487,6 @@
 				INFOPLIST_FILE = Capsaicin/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -526,42 +542,6 @@
 			};
 			name = Release;
 		};
-		0FF89EFF29A51A0B00B4AAAA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 424M8F27AD;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.matandahan.CapsaicinUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Capsaicin;
-			};
-			name = Debug;
-		};
-		0FF89F0029A51A0B00B4AAAA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 424M8F27AD;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.matandahan.CapsaicinUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Capsaicin;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -588,15 +568,6 @@
 			buildConfigurations = (
 				0FF89EFC29A51A0B00B4AAAA /* Debug */,
 				0FF89EFD29A51A0B00B4AAAA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0FF89EFE29A51A0B00B4AAAA /* Build configuration list for PBXNativeTarget "CapsaicinUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0FF89EFF29A51A0B00B4AAAA /* Debug */,
-				0FF89F0029A51A0B00B4AAAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
